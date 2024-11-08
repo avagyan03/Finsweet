@@ -1,0 +1,34 @@
+.photo {
+  
+
+    // .photo__container
+
+    &__container {}
+
+    // .photo__content
+
+    &__content {
+        padding: 130px 340px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    // .photo__img
+
+    &__img {}
+
+    // .photo__text
+
+    &__text {
+        text-align: center;
+        font-family: var(--second-family);
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 133%;
+        letter-spacing: -0.04em;
+        color: var(--dark-color);
+       
+    }
+}

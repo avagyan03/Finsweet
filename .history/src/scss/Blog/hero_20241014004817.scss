@@ -1,0 +1,16 @@
+.hero {
+
+    // .hero__containers
+
+    &__containers {
+    }
+
+    // .hero__content
+
+    &__content {
+        min-height: 520px;
+        background-color: var(--background-color);
+    }
+}
+
+

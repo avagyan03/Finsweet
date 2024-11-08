@@ -1,0 +1,32 @@
+.header {
+  background-color: var(--background-color);
+
+  // .header__container
+
+  &__container {}
+
+  // .header__logo
+
+  &__logo {
+    text-decoration: none;
+  }
+
+  // .header__burger
+
+  &__burger {}
+
+  .nav {
+
+    // .nav__list
+
+    &__list {}
+
+    // .nav__item
+
+    &__item {}
+
+    // .nav__link
+
+    &__link {}
+  }
+}

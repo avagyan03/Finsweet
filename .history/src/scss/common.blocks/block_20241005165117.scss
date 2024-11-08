@@ -1,0 +1,22 @@
+.block {
+    padding-top: 65px;
+    ;
+
+    // .block__container
+
+    &__container {}
+
+    // .block__content
+
+    &__content {}
+
+    &__title {
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 133%;
+        letter-spacing: -0.06em;
+        color: var(--dark-color);
+
+    }
+}

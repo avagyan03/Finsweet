@@ -1,0 +1,11 @@
+.footer {
+	min-height: 560px;
+	background-color: var(--background-color) !important;
+
+
+	&__logo {
+		color:var(--light-color) !important;
+		font-size: 40px;
+		text-decoration: none;
+	}
+}

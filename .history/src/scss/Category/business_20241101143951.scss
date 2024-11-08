@@ -1,0 +1,20 @@
+.business {
+
+    // .business__container
+
+    &__container {
+    }
+
+    // .business__content
+
+    &__content {
+    }
+
+    // .business__blocks
+
+    &__blocks {
+        min-height: 420px;
+        background-color: var(--text-color);
+    }
+}
+

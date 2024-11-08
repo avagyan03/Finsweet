@@ -1,0 +1,23 @@
+.photo {
+    padding: 130px 0px 0px 0px;
+
+    // .photo__container
+
+    &__container {
+    }
+
+    // .photo__content
+
+    &__content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    // .photo__img
+
+    &__img {
+    }
+}
+.container {
+}

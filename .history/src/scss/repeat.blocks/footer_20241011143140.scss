@@ -1,0 +1,37 @@
+.footer {
+	min-height: 560px;
+	background-color: var(--background-color) !important;
+
+
+	&__logo {
+		color: var(--light-color) !important;
+		font-size: 40px;
+		text-decoration: none;
+	}
+
+
+	&__nav {
+		
+	}
+
+	.nav {
+		display: flex;
+
+		// .nav__list
+
+		&__list {}
+
+		// .nav__item
+
+		&__item {}
+
+		// .nav__link
+
+		&__link {
+			color:var(--light-color) !important;
+			text-decoration: none;
+		}
+	}
+
+
+}

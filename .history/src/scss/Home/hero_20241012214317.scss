@@ -1,0 +1,75 @@
+.hero {
+  min-height: 720px;
+  padding-bottom: 65px;
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    min-height: 720px;
+  }
+
+
+  &__span {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 125%;
+    letter-spacing: 0.19em;
+    text-transform: uppercase;
+    color: var(--light-color);
+  }
+
+
+
+  &__title {
+    max-width: 800px;
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 114%;
+    letter-spacing: -0.04em;
+    color: var(--light-color);
+
+  }
+
+  &__date {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    color: var(--light-color);
+  }
+
+  &__important-word {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    color: var(--accent-color);
+  }
+
+  &__text {
+    max-width: 600px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    color: var(--light-color);
+ 
+
+  }
+
+  &__button {
+    
+  }
+
+  // .hero__container
+
+
+
+  // .hero__img
+
+
+}

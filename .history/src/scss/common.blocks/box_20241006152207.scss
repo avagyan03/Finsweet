@@ -1,0 +1,24 @@
+.box {
+
+
+    padding-top: 80px;;
+
+    // .box__container
+
+    &__container {
+    }
+
+    // .box__content
+
+    &__content {
+    }
+
+    // .box__block
+
+    &__block {
+        min-height: 530px;
+        background-color: var(--text-color);
+    }
+}
+.container {
+}

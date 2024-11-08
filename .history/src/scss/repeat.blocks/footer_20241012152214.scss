@@ -1,0 +1,48 @@
+.footer {
+	min-height: 560px;
+	background-color: var(--background-color) !important;
+
+
+	&__logo {
+		color: var(--light-color) !important;
+		font-size: 40px;
+		text-decoration: none;
+	}
+
+	&__content {
+		display: flex !important;
+		gap:100px;
+		justify-content: space-between !important;
+		
+	}
+
+
+	&__nav {}
+
+	.nav {
+
+
+		// .nav__list
+
+		&__list {
+			font-size: 20px;;
+			padding: 20px 0px;
+			display: flex;
+			gap: 35px;
+		}
+
+		// .nav__item
+
+		&__item {}
+
+		// .nav__link
+
+		&__link {
+			font-family: var(--font-family) !important;
+			color: var(--light-color) !important;
+			text-decoration: none;
+		}
+	}
+
+
+}

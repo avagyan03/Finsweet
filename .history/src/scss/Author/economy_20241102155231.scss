@@ -1,0 +1,107 @@
+.economy {
+
+    // .economy__container
+
+    &__container {}
+
+    // .economy__content
+
+    &__content {}
+
+    // .economy__blocks
+
+    &__blocks {
+        display: flex;
+        gap: 35px;
+        padding: 130px;
+        min-height: 550px;
+        background-color: var(--text-color);
+    }
+
+    &__title {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 133%;
+        letter-spacing: -0.04em;
+        color: var(--dark-color);
+        margin: 0;
+        margin-bottom: 25px;
+    }
+
+    &__text {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 175%;
+        color: var(--box-color);
+        margin: 0;
+        margin-bottom: 25px;
+    }
+
+    &__icon {
+        display: flex;
+        gap: 20px;
+    }
+
+    &__svg {
+        width: 16px;
+        height: 16px;
+
+    }
+
+    &__author {
+        display: flex;
+        padding: 0px 200px;
+        margin-bottom: 130px;
+    }
+
+    &__author-box {
+        width: 813px;
+        height: 25px;
+        background-color: var(--accent-color);
+    }
+
+    &__author-boxs {
+        width: 270px;
+        height: 25px;
+        background-color: var(--object-color);
+    }
+
+    &__texts {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 133%;
+        letter-spacing: -0.04em;
+        color: var(--dark-color);
+        margin: 0;
+        margin-bottom: 65px;
+    }
+
+    &__item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 35px;
+
+    }
+
+    &__text-span {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 125%;
+        letter-spacing: 0.19em;
+        text-transform: uppercase;
+        color: var(--object-color);
+    }
+
+    &__text-p {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 133%;
+        letter-spacing: -0.06em;
+        color: var(--dark-color);
+        max-width: 560px;
+        margin: 0;
+        margin-bottom: 25px;
+    }
+}

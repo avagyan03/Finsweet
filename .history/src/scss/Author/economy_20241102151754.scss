@@ -1,0 +1,20 @@
+.economy {
+
+    // .economy__container
+
+    &__container {
+    }
+
+    // .economy__content
+
+    &__content {
+    }
+
+    // .economy__blocks
+
+    &__blocks {
+        min-height: 550px;
+        background-color: var(--text-color);
+    }
+}
+

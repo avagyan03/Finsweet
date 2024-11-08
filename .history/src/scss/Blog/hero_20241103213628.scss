@@ -1,0 +1,111 @@
+.hero {
+
+    // .hero__containers
+
+    &__containers {}
+
+    // .hero__content
+
+    &__content {
+        display: flex;
+        gap: 140px;
+        padding: 95px 80px;
+        min-height: 520px;
+        background-color: var(--text-color);
+
+        @media(max-width:768px) {
+            flex-direction: column;
+            padding: 10px;
+            gap: 0;
+        }
+    }
+
+    &__box {}
+
+
+    // .hero__span
+
+    &__spans {
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 125%;
+        letter-spacing: 0.19em;
+        text-transform: uppercase;
+        color: var(--dark-color);
+        margin: 0;
+        margin-bottom: 20px;
+    }
+
+    // .hero__title
+
+    &__titles {
+        font-weight: 700;
+        @include media-adaptiv-font(36, 20);
+        line-height: 133%;
+        letter-spacing: -0.06em;
+        color: var(--dark-color);
+        margin: 0;
+        margin-bottom: 20px;
+        @media(max-width:768px) {
+            max-width: 200px;
+        }
+
+    }
+
+    // .hero__date
+
+    &__dates {
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 143%;
+        color: var(--box-color);
+        margin: 0;
+        margin-bottom: 20px;
+    }
+
+    // .hero__important-word
+
+    &__important-word {}
+
+    // .hero__text
+
+    &__texts {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 175%;
+        color: var(--box-color);
+        margin: 0;
+        margin-bottom: 30px;
+        max-width: 360px;
+        @media(max-width:576px){
+            max-width: 200px;
+        }
+
+    }
+
+    // .hero__button
+
+    &__buttons {
+        margin: 0;
+        margin-bottom: 35px;
+        background-color: var(--accent-color);
+        width: 200px;
+        height: 60px;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 133%;
+        color: var(--dark-color);
+    }
+
+    &__image {
+        max-width: 515px;
+        min-height: 360px;
+        @media(max-width:576px){
+            max-width: 250px;
+            min-height: 360px;
+        }
+    }
+}

@@ -1,0 +1,115 @@
+.list {
+
+    // .list__title-text
+
+    &__title-text {
+        text-align: center;
+        margin: 0;
+        margin-bottom: 50px;
+
+    }
+    &__box:hover {
+        background-color: var(--block-color);
+    }
+
+    // .list__list
+
+    &__list {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    // .list__item
+
+    &__item {
+    }
+
+    // .list__box
+
+    &__box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: var(--light-color);
+        border: 1px solid var(--box-color);
+        max-width: 300px;
+        min-height: 230px;
+        padding: 35px;
+    }
+
+    // .list__img
+
+    &__img {
+        max-width: 130px;
+        min-height: 130px;
+    }
+
+    // .list__texts
+
+    &__texts {
+        font-family: var(--second-family);
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 143%;
+        letter-spacing: -0.04em;
+        color: var(--dark-color);
+        margin: 0;
+    }
+
+    // .list__subtitle-text
+
+    &__subtitle-text {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 143%;
+        text-align: center;
+        color: var(--box-color);
+        padding: 0;
+        margin-bottom: 20px;
+    }
+
+    // .list__icon
+
+    &__icon {
+        display: flex;
+        gap: 20px;
+        max-width: 130px;
+        max-height: 50px;
+    }
+    // .list__svg
+
+    &__svg {
+        max-width: 160px;
+        max-height: 32px;
+
+    }
+
+    // .list__subtitle-texts
+
+    &__subtitle-texts {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 175%;
+        color: var(--box-color);
+        margin: 0;
+    }
+
+    // .list__item-pen
+    &__item-pen {
+        display: flex;
+
+    }
+
+    // .list__pen
+
+    &__pen {
+    }
+
+    // .list__texts-title
+
+    &__texts-title {
+    }
+}

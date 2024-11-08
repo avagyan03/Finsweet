@@ -1,0 +1,21 @@
+.economy {
+
+    // .economy__container
+
+    &__container {
+    }
+
+    // .economy__content
+
+    &__content {
+    }
+
+    // .economy__blocks
+
+    &__blocks {
+        padding: 130px;
+        min-height: 550px;
+        background-color: var(--text-color);
+    }
+}
+

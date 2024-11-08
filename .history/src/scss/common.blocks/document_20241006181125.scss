@@ -1,0 +1,43 @@
+.document {
+padding-top: 45px;;
+    // .document__container
+
+    &__container {
+    }
+
+    // .document__content
+
+    &__content {
+        display: flex;
+        gap:35px;
+    }
+}
+.box {
+
+    &__blocks {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        min-height: 325px;
+     
+
+
+    }
+
+    &__box {
+        display: flex;
+        flex-direction: column;
+        background-color: var(--light-color);
+        border: 1px solid var(--box-color);
+        max-width: 300px;
+        min-height: 230px;
+        padding: 35px;
+
+    }
+
+    &__img {
+        max-width: 48px;
+        min-height: 48px;
+        background-color: var(--block-color);
+    }
+}

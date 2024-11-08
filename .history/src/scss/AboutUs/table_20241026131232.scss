@@ -1,0 +1,27 @@
+.table {
+
+    // .table__container
+
+    &__container {}
+
+    // .table__content
+
+    &__content {}
+
+    // .table__title
+
+    &__title {
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 125%;
+        letter-spacing: 0.19em;
+        text-transform: uppercase;
+        color: var(--dark-color);
+        margin: 0;
+    }
+
+    // .table__img
+
+    &__img {}
+}

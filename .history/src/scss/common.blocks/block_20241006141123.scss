@@ -1,0 +1,113 @@
+.block {
+    padding-top: 65px;
+
+
+    // .block__container
+
+    &__container {}
+
+    // .block__content
+
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        gap: 65px;
+
+
+    }
+
+    &__subtitle {
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 143%;
+        color: var(--box-color);
+    }
+
+    &__lines {
+        font-family: var(--second-family);
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 133%;
+        color: var(--dark-color);
+    }
+
+    &__box {
+        margin-bottom: 20px;
+
+    }
+
+    &__text {
+        text-decoration: none;
+    }
+
+    &__subtitle-title {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 175%;
+        color: var(--box-color);
+        margin-bottom: 35px;
+
+
+    }
+
+    &__object {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__title {
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 133%;
+        letter-spacing: -0.06em;
+        color: var(--dark-color);
+        margin: 0;
+        margin-bottom: 65px;
+
+
+    }
+
+    &__line {
+        font-family: var(--second-family);
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 143%;
+        letter-spacing: -0.04em;
+        color: var(--dark-color);
+        margin: 0;
+        margin-bottom: 20px;
+        max-width: 670px;
+
+    }
+
+    &__img {
+        max-width: 670px;
+        margin-bottom: 32px;
+    }
+
+    &__boxs {
+        max-width: 520px;
+        min-height: 180px;;
+        background-color: var(--block-color);
+    }
+
+
+    &__button {
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 133%;
+        min-height: 60px;
+        max-width: 200px;
+        background-color: var(--accent-color);
+        color: var(--dark-color);
+    }
+
+    &__box-block {
+        display: flex;
+        flex-direction: column;
+    }
+}

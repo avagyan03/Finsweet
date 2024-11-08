@@ -1,0 +1,22 @@
+.privacy {
+
+    // .privacy__container
+
+    &__container {}
+
+    // .privacy__content
+
+    &__content {}
+
+    // .privacy__title
+
+    &__title {}
+
+    &__box {
+        display: flex;
+        flex-direction: column;
+        align-items: center ;
+        min-height: 260px;
+        background-color: var(--text-color);
+    }
+}

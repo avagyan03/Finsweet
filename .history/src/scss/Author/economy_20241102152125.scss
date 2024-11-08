@@ -1,0 +1,22 @@
+.economy {
+
+    // .economy__container
+
+    &__container {
+    }
+
+    // .economy__content
+
+    &__content {
+    }
+
+    // .economy__blocks
+
+    &__blocks {
+        display: flex;
+        padding: 130px;
+        min-height: 550px;
+        background-color: var(--text-color);
+    }
+}
+

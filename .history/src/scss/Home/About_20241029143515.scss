@@ -1,0 +1,138 @@
+.about {
+    .slider__slide {
+        border-left: 1px solid var(--box-color);
+        padding: 0px 5px;;
+    }
+
+    // .about__container
+
+    &__container {}
+
+    // .about__content
+
+    &__content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 95px 0;
+        min-height: 470px;
+        margin-bottom: 130px;
+        background-color: var(--block-color);
+
+
+    }
+
+
+    &__box-block {
+        display: flex;
+        gap: 155px;
+
+    }
+
+    &__slider {
+        max-width: 450px;
+    }
+
+    &__slider-button {
+        bottom: -115px;
+        right: 200px;
+        top: auto;
+
+        @media(min-width:576px) {
+            bottom: 0;
+            right: 0;
+        }
+
+        &_next {
+            bottom: -100px;
+            left: 300px;
+
+            @media(min-width:576px) {
+                bottom: -45px;
+                left: 280px;
+            }
+        }
+
+        &_prev {
+            bottom: -100px;
+            left: auto;
+            right: 300px;
+
+            @media(min-width:576px) {
+                bottom: -30px;
+                right: 130px;
+            }
+        }
+    }
+
+
+    &__box-box {
+        display: flex;
+        gap: 40px;
+    }
+
+    &__box-img {
+        margin-bottom: 20px;
+    }
+
+    &__box-img-left {
+        width: 48px;
+        height: 48px;
+    }
+
+    &__box-img-right {
+        width: 62px;
+        height: 62px;
+    }
+
+    &__text {
+        font-family: var(--font-family);
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 125%;
+        letter-spacing: 0.19em;
+        text-transform: uppercase;
+        color: var(--dark-color);
+        margin: 0;
+        margin-bottom: 15px;
+
+    }
+
+    &__block {}
+
+    &__title {
+        max-width: 345px;
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 133%;
+        letter-spacing: -0.06em;
+        color: var(--dark-color);
+        margin: 0;
+        margin-bottom: 15px;
+
+    }
+
+    &__subtitle {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 175%;
+        color: var(--box-color);
+        max-width: 380px;
+
+    }
+
+    &__box-text {
+        font-family: var(--font-family);
+        font-weight: 700;
+        @include media-adaptiv-font(24, 16);
+        line-height: 133%;
+        color: var(--dark-color);
+        max-width: 470px;
+        margin: 0;
+        margin-bottom: 120px;
+
+    }
+
+}

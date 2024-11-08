@@ -1,0 +1,21 @@
+.contact {
+
+    // .contact__container
+
+    &__container {}
+
+    // .contact__content
+
+    &__content {}
+
+    &__title {
+        font-family: var(--font-family);
+        font-weight: 900;
+        font-size: 16px;
+        line-height: 125%;
+        letter-spacing: 0.19em;
+        text-transform: uppercase;
+        text-align: center;
+        color: var(--dark-color);
+    }
+}

@@ -1,0 +1,35 @@
+.list {
+
+
+    // .list__container
+
+    &__container {
+       
+    }
+
+    // .list__content
+
+    &__content {}
+
+    // .list__title
+
+    &__title {
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 133%;
+        letter-spacing: -0.04em;
+        color: var(--dark-color);
+        border-bottom: 1px solid var(--box-color);
+        margin: 0;
+        padding: 32px  0 0 0;
+    }
+
+    // .list__list
+
+    &__list {}
+
+    // .list__subtitle
+
+    &__subtitle {}
+}

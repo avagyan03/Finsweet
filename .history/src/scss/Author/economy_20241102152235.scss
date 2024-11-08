@@ -1,0 +1,28 @@
+.economy {
+
+    // .economy__container
+
+    &__container {}
+
+    // .economy__content
+
+    &__content {}
+
+    // .economy__blocks
+
+    &__blocks {
+        display: flex;
+        padding: 130px;
+        min-height: 550px;
+        background-color: var(--text-color);
+    }
+
+    &__title {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 133%;
+        letter-spacing: -0.04em;
+        color: var(--dark-color);
+        margin: 0;
+    }
+}

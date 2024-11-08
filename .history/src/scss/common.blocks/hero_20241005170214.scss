@@ -1,0 +1,20 @@
+.hero {
+  width: 1440px;;
+ padding-bottom: 65px;;
+
+
+  // .hero__container
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  // .hero__img
+
+  &__img {
+    width: 100%;
+  }
+}
+.container {
+}

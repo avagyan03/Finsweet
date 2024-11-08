@@ -1,0 +1,39 @@
+.footer {
+	background-color: var(--background-color) !important;
+	// .footer__container
+
+	&__container {}
+
+	// .footer__logo
+
+	&__logo {
+		color: var(--light-color) !important;
+		font-size: 40px;
+		text-decoration: none;
+	}
+
+	// .footer__nav
+
+	&__nav {}
+	.nav {
+		display: flex;
+		gap: 35px;
+
+	// .nav__list
+
+	&__list {}
+
+	// .nav__item
+
+	&__item {}
+
+	// .nav__link
+
+	&__link {
+		color: var(--light-color) !important;
+	}
+}
+}
+
+
+
